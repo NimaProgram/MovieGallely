@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Quicksand:wght@500&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    background-color: steelblue;
+    margin: 0;
+}
+
+#linkList {
+width: 15vw;
+height: 100vh;
+background-color: rgb(39, 41, 46);
+position: absolute;
+left: 20px;
+top: 0;
+bottom:0;
+color: white;
+z-index: 2;
+}
+
+#linkList h1,#butt {
+    text-align: center;
+}
+
+#target-1,#target-2,#target-3{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+#target input {
+    margin: 20px 10px;
+    transform: scale(2);
+    display: inline;
+}
+#target label {
+    vertical-align: middle;
+    background-color: rgb(75, 141, 161);
+}
+
+#target {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+#b-2{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(28, 116, 43);
+    /* font-family: 'Kiwi Maru', serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+
+#b-2 span {
+    font-family: 'Kiwi Maru', serif;
+}
+
+.videos {
+    width: 60vw;
+    left:250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+#preview {
+    background-color: rgb(66, 87, 92);
+    width: calc(100vw - 15vw - 20px);
+    position:absolute;
+    left: calc(15vw + 20px);
+    height: 100vh;
+}
+
+#bg{
+    position: absolute;
+    
+}
+
+.backgroundImage{
+    filter: blur(7px);
+    position: absolute;
+    width: cover;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    margin: auto;
+    transition-duration: 1.5s;
+    transition-delay: 0.5;
+    z-index: 1;
+}
+
+#butt {
+    margin-top: 30px;
+}
+#Relbutton {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+#Relbutton:hover {
+    background-color: rgb(189, 189, 189);
+}
